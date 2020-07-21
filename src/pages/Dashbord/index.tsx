@@ -3,7 +3,6 @@ import Chart from 'react-google-charts';
 
 import { Title, Repositories } from './styles';
 
-
 const Dashbord: React.FC = () => {
   const title = "Quantidade de cadastros primeiro semestre";
   const [repositories, setRepositories] = useState([
@@ -16,7 +15,6 @@ const Dashbord: React.FC = () => {
     ['Junho', 27]
   ]);
   
-
   return (
     <>
       <Title>Dashbord</Title>
@@ -27,9 +25,6 @@ const Dashbord: React.FC = () => {
           options={{ title: title }}
         />
       </Repositories>
-      
-        
-      
     </>
   );
 };
